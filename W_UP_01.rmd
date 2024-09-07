@@ -20,7 +20,7 @@ mydata <- read.csv(file="pushups.csv")
 # Introduction
 
 <!--In this section you explain what you are trying to show. Where did the data come from? What is the research or other question you are trying to answer?!-->
-
+    
 Create an Rstudio project in your shared space on rstudio.cloud.  Using the dataset called pushups from the tigerstats package in R; answer the question posed by this null and alternate hypothesis in an html markdown document.
 
 $H_0$: There is no difference between the average number of pushups of line vs skill players
