@@ -81,7 +81,10 @@ The numerical summary shows that skill players did about three times as many pus
 t.test(pushups~position,data=mydata)
 ```
 
+The p-value is 0.00000941 this is less than 0.05 so I reject the $H_0$ 
 
+
+We conclude that the skill position player can do more pushups on average than can the line players
 
 
 
@@ -92,4 +95,9 @@ t.test(pushups~position,data=mydata)
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Is there an average difference between line and skill football players pushups? The data from this was taken from the numerical~cat template and the Georgetown college. In conclusion Skill position players can do more pushups in two minutes than line position players.
+
+
+
 
