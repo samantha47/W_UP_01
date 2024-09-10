@@ -45,11 +45,31 @@ so i used the helper file,num catagodical.
 
 <!--Graphical results here. Make sure to show your code. Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too. Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+
+This boxplot shows that on average players in the skill position do more pushups in two minutes then do hthe line players
+
+
+
+
+
+
+
 
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+
+
+
 
 ## Inferential Results
 
